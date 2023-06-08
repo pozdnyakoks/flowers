@@ -1,0 +1,40 @@
+.running-string {
+  position: absolute;
+  bottom: 11%;
+  transition: .3s ease;
+  transform: rotate(-3deg);
+  display: flex;
+}
+
+.running-string-text {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 38px;
+  line-height: 47px;
+  color: var(--red);
+  white-space: nowrap;
+  padding: 6px 10px;
+  border-top: 3px solid var(--red);
+  border-bottom: 3px solid var(--red);
+  animation: runningLine 20s infinite linear;
+}
+
+.running-string-text::before {
+  content: '';
+  position: absolute;
+  top: -16%;
+  height: 133%;
+  width: 100%;
+  border-top: 2px solid var(--red);
+  border-bottom: 2px solid var(--red);
+}
+
+@keyframes runningLine {
+  0% {
+    transform: translate(100%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

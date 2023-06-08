@@ -1,0 +1,96 @@
+@import './running-string.css';
+
+.start-select {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 85px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: inset 0px 23px 45px rgba(220, 53, 53, 0.08);
+}
+
+.switch-logo {
+  margin-bottom: 6%;
+}
+
+.switch {
+  padding: 74px 93px;
+  background-color: var(--light);
+  box-shadow: 0px 29px 45px rgba(220, 53, 53, 0.08);
+  border-radius: 50px;
+}
+
+.switch-title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: var(--dark);
+  margin-bottom: 40px;
+}
+
+.switcher-radios {
+  background-color: var(--pink-light);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.switch-label {
+  height: 100%;
+  position: relative;
+  font-size: 24px;
+  line-height: 57px;
+  color: var(--half-dark);
+}
+
+.switch-radio {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.switch-label span {
+  border-radius: 30px;
+  background-color: var(--pink-light);
+  padding: 12px 30px;
+  transition: .3s ease;
+}
+
+.switch-radio:checked+span {
+  background-color: var(--pink);
+  border-radius: 30px;
+  color: var(--dark)
+}
+
+.header .switcher-radios {
+  position: absolute;
+  top: 25%;
+  left: 1%;
+  background-color: var(--light);
+}
+
+
+.header .switch-label span {
+  border-radius: 30px;
+  background-color: var(--light);
+  padding: 8px 21px;
+  transition: .3s ease;
+}
+
+.header .switch-radio:checked+span {
+  background-color: var(--bege);
+  color: var(--dark);
+}
+
+.header .switch-label {
+
+  font-size: 17px;
+  line-height: 38px;
+  color: var(--half-dark);
+}
