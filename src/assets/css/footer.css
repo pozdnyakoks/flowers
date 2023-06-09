@@ -1,0 +1,65 @@
+.footer {
+  background: var(--pink-light);
+  box-shadow: 0px -29px 45px rgba(220, 53, 53, 0.08);
+  padding: 35px 0 15px;
+}
+
+.footer .container {
+  position: relative;
+  padding: 0 25px;
+  display: grid;
+  grid-template-columns: 37% 34% 22%;
+  ;
+}
+
+.footer-title {
+  margin-bottom: 15px;
+}
+
+.block {
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 21px;
+  margin-left: 8%;
+  margin-bottom: 19px;
+}
+
+.footer-adress-item {
+  margin-bottom: 7px;
+}
+
+.footer-adress-item a {
+  color: var(--half-dark);
+  padding-left: 25px;
+  background-image: url('./../img/icons/location.svg');
+  background-repeat: no-repeat;
+}
+
+.footer-adress-item:first-child a {
+  background-image: url('./../img/icons/call.svg');
+
+}
+
+.footer-block-title {
+  margin-bottom: 28px;
+}
+
+.footer-block-item {
+  margin-bottom: 5px;
+}
+
+.footer-btn {
+  position: absolute;
+  right: 1.5%;
+  bottom: 11%;
+  text-transform: uppercase;
+}
+
+.footer-csg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}

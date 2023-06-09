@@ -1,0 +1,131 @@
+.modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, .25);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+  transition: .3s ease;
+}
+
+.modal.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  position: relative;
+  background-color: var(--white-light);
+  box-shadow: 0px 29px 45px rgba(220, 53, 53, 0.08);
+  border-radius: 50px;
+  min-width: 829px;
+  padding: 81px 65px 51px;
+}
+
+#feedback .modal-content {
+  min-height: 980px;
+}
+
+#backCall .modal-content {
+  max-height: 589px;
+  min-height: 589px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 3.7%;
+  right: 4.5%;
+}
+
+.modal-title {
+  margin-bottom: 16px;
+}
+
+.modal-desc {
+  margin-bottom: 35px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.modal-input {
+  border: none;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--dark);
+  /* border-bottom: 1px solid var(--bege); */
+}
+
+.modal-line {
+  height: 1px;
+  background-color: var(--bege);
+  width: 100%;
+  transition: .3s ease;
+}
+
+.modal-textarea {
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--dark);
+  border: none;
+  background-color: var(--light);
+  border-radius: 30px;
+  height: 223px;
+  padding: 12px 26px;
+  margin-top: 6px;
+}
+
+.modal-input::placeholder,
+.modal-textarea::placeholder {
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--half-dark);
+}
+
+.modal-btn {
+  margin-top: 12px;
+  padding: 19px;
+}
+
+.modal-input:focus+.modal-line {
+  opacity: 0;
+}
+
+.modal-input:focus,
+.modal-input:focus-visible {
+  outline: 2px solid #DC3E56;
+  border-radius: 7px;
+}
+
+#thanks.modal {
+  align-items: center;
+}
+
+#thanks .modal-content {
+  text-align: center;
+  padding: 44px 257px;
+}
+
+#thanks .modal-title {
+  color: var(--pink);
+  margin-bottom: 8px;
+}
+
+.modal-img {
+  margin-bottom: 24px;
+}

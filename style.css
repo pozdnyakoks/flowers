@@ -1,6 +1,10 @@
 @import './src/assets/css/normalize.css';
 @import './src/assets/css/common.css';
 @import './src/assets/css/fonts.css';
+@import './src/assets/css/buttons.css';
 @import './src/assets/css/switcher.css';
 @import './src/assets/css/header.css';
-@import './src/assets/css/buttons.css';
+@import './src/assets/css/feedback.css';
+@import './src/assets/css/about.css';
+@import './src/assets/css/delivery.css';
+@import './src/assets/css/footer.css';

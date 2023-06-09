@@ -24,11 +24,6 @@
 }
 
 .switch-title {
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  text-transform: uppercase;
-  color: var(--dark);
   margin-bottom: 40px;
 }
 
@@ -42,7 +37,6 @@
 .switch-label {
   height: 100%;
   position: relative;
-  font-size: 24px;
   line-height: 57px;
   color: var(--half-dark);
 }
@@ -89,7 +83,6 @@
 }
 
 .header .switch-label {
-
   font-size: 17px;
   line-height: 38px;
   color: var(--half-dark);

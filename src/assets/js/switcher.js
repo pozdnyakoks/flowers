@@ -7,13 +7,13 @@ export default function switcher() {
         <img src="./src/assets/img/icons/logo.svg" alt="Литтл Олли - студия цветов и подарков">
       </div>
       <div class="switch">
-        <h2 class='switch-title'>выберите город доставки</h2>
+        <h2 class='switch-title title1'>выберите город доставки</h2>
         <div class="switcher-radios">
-          <label class="switch-label">
+          <label class="switch-label title12">
             <input type="radio" class="switch-radio" name="city" value="Moscow" checked>
             <span>Москва</span>
           </label>
-          <label class="switch-label">
+          <label class="switch-label title12">
             <input type="radio" class="switch-radio" name="city" value="Cheboksary">
             <span>Чебоксары</span>
           </label>

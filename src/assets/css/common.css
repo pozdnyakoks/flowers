@@ -11,6 +11,7 @@ html {
 }
 
 :root {
+  /* colors */
   --dark: #191919;
   --light: #FAF1E9;
   --bege: #E7B588;
@@ -29,6 +30,10 @@ body {
   min-height: 100vh;
   font-family: 'Manrope';
   background-color: var(--white-light);
+}
+
+body.overflow {
+  overflow: hidden;
 }
 
 img {
@@ -51,6 +56,95 @@ a {
 
 ul {
   list-style: none;
+}
+
+/* typography */
+
+.title1 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+
+.title12 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--dark);
+}
+
+.title2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+
+.title22 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--dark);
+}
+
+.title23 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--dark);
+}
+
+.title3 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--dark);
+}
+
+.title32 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--dark);
+}
+
+.title4 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--dark);
+}
+
+.title42 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--dark);
+}
+
+.title43 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+
+.title44 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--dark);
+}
+
+.title5 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--dark);
 }
 
 .container {

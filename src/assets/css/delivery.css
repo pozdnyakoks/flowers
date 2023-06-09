@@ -1,0 +1,161 @@
+.delivery {
+  padding-top: 38px;
+}
+
+.delivery-title {
+  margin-bottom: 24px;
+}
+
+.delivery-desc {
+  margin-bottom: 33px;
+}
+
+.delivery-desc span {
+  color: var(--red);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.delivery-block {
+  display: grid;
+  grid-template-columns: 60% 29%;
+  justify-content: end;
+  /* gap: 64px */
+  margin-bottom: 43px;
+}
+
+.delivery-list-item {
+  position: relative;
+  padding-left: 44px;
+  margin-bottom: 34px;
+}
+
+.delivery-list-item:last-child {
+  margin: 0;
+}
+
+.delivery-list-item::before {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: var(--bege);
+}
+
+.delivery-list-item-title {
+  margin-bottom: 5px;
+}
+
+.delivery-info {
+  background-color: var(--pink-light);
+  text-align: center;
+  padding: 24px 20px 42px;
+}
+
+.delivery-switcher-block {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.delivery .switcher-radios {
+  justify-content: flex-start;
+
+  background-color: var(--light);
+}
+
+
+.delivery .switch-label span {
+  background-color: var(--light);
+  padding: 8px 21px;
+  transition: .3s ease;
+}
+
+.delivery .switch-radio:checked+span {
+  background-color: var(--bege);
+  color: var(--dark);
+}
+
+.delivery .switch-label {
+  font-size: 17px;
+  line-height: 38px;
+  color: var(--half-dark);
+}
+
+.delivery-table {
+  width: 91%;
+  margin: 0 auto;
+  /* display: grid; */
+  /* grid-template-columns: 30% 9% 11% 29% 21%; */
+  /* row-gap: 24px; */
+  ;
+}
+
+.delivery-table-block {
+  padding-top: 75px;
+  padding-bottom: 79px;
+}
+
+/* .delivery-table-title {
+  grid-column: 4/6;
+} */
+
+/* .delivery-table-title:first-child {
+  grid-column: 1/3;
+} */
+
+
+.delivery-table-line {
+  width: 10%;
+}
+
+.delivery-table-title span {
+  font-size: 15px;
+}
+
+.delivery-table-item-price {
+  text-transform: uppercase;
+  justify-self: end;
+  ;
+}
+
+.delivery-table tr td:first-child {
+  width: 30%;
+}
+
+.delivery-table tr td:nth-child(2) {
+  width: 9%;
+}
+
+.delivery-table tr td:nth-child(3) {
+  width: 30%;
+}
+
+.delivery-table tr td:nth-child(4) {
+  width: 20%;
+}
+
+.delivery-table tr td:nth-child(4) {
+  width: 9%;
+}
+
+.delivery-table td {
+  padding-bottom: 20px;
+}
+
+/* .delivery-table th {
+  padding-bottom: 20px;
+} */
+
+.delivery-table tr td:nth-child(2),
+.delivery-table tr td:nth-child(4) {
+  text-align: end;
+}
+
+/* .delivery-table tr td:nth-child(5) {
+  width: 10%;
+}  */

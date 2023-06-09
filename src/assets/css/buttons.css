@@ -1,23 +1,39 @@
-.header-btn {
+/* + title4 */
+.small-btn {
   background-color: var(--pink-light);
   border-radius: 20px;
-  font-weight: 400;
+  padding: 5px 40px;
+}
+
+.color-btn {
+  padding: 9px 24px 7px;
+  background-color: var(--red);
+  border-radius: 20px;
+  font-weight: 300;
   font-size: 14px;
-  line-height: 22px;
-  color: var(--dark);
-  text-transform: uppercase;
-  padding: 9px 20px 7px;
-  transition: .3s ease;
-  /* width: 238px; */
-  margin-bottom: 5px;
+  line-height: 19px;
+  color: var(--white-light);
 }
 
-.header-btn:first-child {
-  justify-self: end;
-  font-size: 16px;
+/* title4 */
+.middle-btn {
+  padding: 5px 40px;
+  background-color: var(--pink-light);
+  border-radius: 20px;
+}
+
+/* title1 */
+.long-btn {
+  background-color: var(--pink-light);
+  border-radius: 20px;
+  padding: 12px 15px;
 }
 
 
-.header-btn:active {
-  background-color: var(--pink);
+/* title1 */
+.huge-btn {
+  background-color: var(--pink-light);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
 }
