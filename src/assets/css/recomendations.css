@@ -1,0 +1,36 @@
+.recomendations-block {
+  display: flex;
+  gap: 56px;
+  margin-bottom: 79px;
+}
+
+.recomendations-title {
+  margin-bottom: 26px;
+}
+
+.recomendations-block-info {
+  width: 62%;
+}
+
+.recomendations-block-info-desc {
+  margin-bottom: 33px;
+}
+
+.recomendations-block-list {
+  padding-left: 4px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.recomendations-block-list {
+  list-style-position: inside
+}
+
+.recomendations-block-title {
+  padding-left: 40px;
+  margin-bottom: 22px;
+}
+
+.recomendations-block-list:not(:last-child) {
+  margin-bottom: 8px;
+}

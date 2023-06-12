@@ -36,6 +36,20 @@ function hideBackCallForm() {
 openBackCall.addEventListener('click', showBackCallForm);
 closeBackCall.addEventListener('click', hideBackCallForm);
 
+// ymaps.ready(init);
+// function init() {
+//   const myMap = new ymaps.Map("map", {
+//     center: [55.785250, 37.560404],
+//     zoom: 14,
+//   });
+//   const myPlacemark = new ymaps.Placemark(
+//     [55.785250, 37.560404]);
+
+//   myMap.geoObjects
+//     .add(myPlacemark)
+
+// }
+
 
 
 

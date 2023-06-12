@@ -1,0 +1,31 @@
+.contacts-title {
+  margin-bottom: 50px;
+}
+
+.contacts-block {
+  margin-bottom: 41px;
+  display: flex;
+  gap: 21px;
+}
+
+.contacts-info-list-item-title {
+  color: var(--red);
+  margin-bottom: 8px;
+}
+
+.contacts-info-list-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.contacts-info {
+  height: 100%;
+}
+
+.contacts-info-desc {
+  margin-top: 61px;
+}
+
+#map {
+  height: 360px;
+  width: 953px;
+}

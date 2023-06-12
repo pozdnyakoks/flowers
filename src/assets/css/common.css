@@ -147,6 +147,10 @@ ul {
   color: var(--dark);
 }
 
+#div {
+  overflow: hidden;
+}
+
 .container {
   position: relative;
   max-width: 1330px;
@@ -167,4 +171,9 @@ ul {
 
 .loader video {
   height: 65%;
+}
+
+section {
+  position: relative;
+  padding-top: 39px;
 }

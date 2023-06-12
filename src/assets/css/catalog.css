@@ -1,0 +1,38 @@
+.catalog {
+  padding-top: 60px;
+}
+
+.flower .modal-content {
+  padding: 64px 42px;
+  min-width: 1017px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 42px;
+}
+
+
+.flower .modal-content img {
+  width: 528px;
+}
+
+.flower .flower-code {
+  color: var(--half-dark);
+}
+
+.flower-photo-img {
+  background: url(image.png);
+  filter: drop-shadow(4px 4px 45px rgba(220, 53, 53, 0.08));
+  border-radius: 10px;
+}
+
+
+.flower-photos {
+  display: flex;
+  gap: 14px;
+}
+
+.flower-photos img {
+  filter: drop-shadow(0px 29px 45px rgba(220, 53, 53, 0.08));
+  border-radius: 60px;
+}

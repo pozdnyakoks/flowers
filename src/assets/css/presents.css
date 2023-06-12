@@ -1,0 +1,57 @@
+.presents {
+  padding-top: 60px;
+}
+
+.presents-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.presents-title-btn {
+  position: relative;
+  padding-right: 16px;
+  padding-top: 6px;
+}
+
+.presents-title-btn::before {
+  position: absolute;
+  content: '';
+  top: 24%;
+  left: 90%;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url('./../img/icons/arrow-right.svg');
+}
+
+.presents-list {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 81px;
+}
+
+
+.presents-list-item-img {
+  filter: drop-shadow(4px 4px 45px rgba(220, 53, 53, 0.08));
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+.presents-list-item-block {
+  max-width: 236px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 17px 0 22px;
+}
+
+.presents-list-item-name {
+  margin-bottom: 4px;
+}
+
+.presents-list-item-btn {
+  padding: 8px 20px;
+  text-align: center;
+}

@@ -1,0 +1,108 @@
+.study-title {
+  margin-bottom: 26px;
+}
+
+.study-desc {
+  margin-bottom: 52px;
+}
+
+.study-list-title {
+  margin-bottom: 32px;
+  ;
+}
+
+.study-list-item-title {
+  margin-bottom: 4px;
+}
+
+.study-list-item {
+  width: 75%;
+  position: relative;
+  padding-left: 44px;
+  margin-bottom: 41px;
+
+}
+
+.study-list-item::before {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: var(--bege);
+}
+
+.study-info {
+  padding: 22px 20px 17px;
+  background-color: var(--light);
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 55px;
+}
+
+.study-info-desc {
+  position: relative;
+  padding-left: 35px;
+}
+
+.study-info-desc::before {
+  position: absolute;
+  content: '';
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.study-info-desc:first-child::before {
+  background-image: url('./../img/icons/calendar.svg')
+}
+
+.study-info-desc:nth-child(2)::before {
+  background-image: url('./../img/icons/clock.svg')
+}
+
+.study-info-desc:nth-child(3)::before {
+  background-image: url('./../img/icons/persons.svg')
+}
+
+.study-info-btn {
+  margin-top: 20px;
+  ;
+  color: var(--red);
+}
+
+#studyPrice .subscr-table-desc {
+  text-transform: none;
+  width: 29%;
+}
+
+#studyPrice .subscr-table-title {
+  width: 24%;
+}
+
+#studyPrice .modal-title {
+  margin-bottom: 69px;
+}
+
+#studyPrice .modal-content {
+  padding: 27px 63px 70px;
+  max-width: 1300px;
+
+}
+
+#studyPrice .subscr-table-row {
+  padding-bottom: 4px;
+
+}
+
+#studyApply .modal-content {
+  max-height: 935px;
+}

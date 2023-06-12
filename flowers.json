@@ -1,12 +1,240 @@
 {
   "before5000": [
     {
-    "id": "1",
-    "img": "./src/assets/img/about-img/about5.jpg",
-    "name": "Букет 'Май'",
-    "price": "6 400"
+      "id": "1",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/1.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "2",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/2.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "3",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/3.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "4",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/4.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "5",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/5.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    }
+  ],
+  "5000-10000": [
+    {
+      "id": "20",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/20.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "21",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/21.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "22",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/22.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "23",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/23.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "24",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/24.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    }
+  ],
+  "10000-30000": [
+    {
+      "id": "30",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/30.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "31",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/31.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "32",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/32.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "33",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/33.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "34",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/34.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    }
+  ],
+  "30000+": [
+    {
+      "id": "40",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/40.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "41",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/41.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "42",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/42.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "43",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/43.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "44",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/44.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    }
+  ],
+  "boxes": [
+    {
+      "id": "50",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/50.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "51",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/51.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "52",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/52.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "53",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/53.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    }
+  ],
+  "wedding": [
+    {
+      "id": "70",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/70.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "71",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/71.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "72",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/72.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    }
+  ],
+  "mono": [
+    {
+      "id": "70",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/70.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "71",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/71.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "72",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/72.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "73",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/73.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
+    },
+    {
+      "id": "74",
+      "code": "SKU: 304",
+      "img": "./img/flowersCatalog/74.jpg",
+      "name": "Букет 'Май'",
+      "price": "6 400"
     }
   ]
-
-
 }

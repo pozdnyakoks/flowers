@@ -1,0 +1,76 @@
+{
+  "cards": [
+    {
+      "id": "100",
+      "img": "./img/presentImages/card1.jpg",
+      "name": "Открытка 1",
+      "price": "100 ₽",
+      "description": "Супер открытка"
+    },
+    {
+      "id": "101",
+      "img": "./img/presentImages/card2.jpg",
+      "name": "Открытка 2",
+      "price": "500 ₽",
+      "description": "Супер открытка"
+    },
+    {
+      "id": "102",
+      "img": "./img/presentImages/card3.jpg",
+      "name": "Открытка 3",
+      "price": "1 200 ₽",
+      "description": "Супер открытка"
+    },
+    {
+      "id": "103",
+      "img": "./img/presentImages/card4.jpg",
+      "name": "Открытка 4",
+      "price": "245 ₽",
+      "description": "Супер открытка"
+    },
+    {
+      "id": "104",
+      "img": "./img/presentImages/card5.jpg",
+      "name": "Открытка 5",
+      "price": "567 ₽",
+      "description": "Супер открытка"
+    }
+  ],
+  "toys": [
+    {
+      "id": "201",
+      "img": "./img/presentImages/toy1.jpg",
+      "name": "Игрушка 1",
+      "price": "1 000 ₽",
+      "description": "Супер игрушка"
+    },
+    {
+      "id": "202",
+      "img": "./img/presentImages/toy2.jpg",
+      "name": "Игрушка 2",
+      "price": "400 ₽",
+      "description": "Супер игрушка"
+    },
+    {
+      "id": "203",
+      "img": "./img/presentImages/toy3.jpg",
+      "name": "Игрушка 3",
+      "price": "567 ₽",
+      "description": "Супер игрушка"
+    },
+    {
+      "id": "204",
+      "img": "./img/presentImages/toy4.jpg",
+      "name": "Игрушка 4",
+      "price": "4 567 ₽",
+      "description": "Супер игрушка"
+    },
+    {
+      "id": "205",
+      "img": "./img/presentImages/toy5.jpg",
+      "name": "Игрушка 5",
+      "price": "7 000 ₽",
+      "description": "Супер игрушка"
+    }
+  ]
+}

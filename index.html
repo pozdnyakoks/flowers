@@ -70,6 +70,7 @@
         </nav>
     </header>
 
+    <!-- обратная связь -->
     <div class="modal" id="feedback">
       <div class="modal-content">
         <button id="closeFeedback" class="modal-close" aria-label="закрыть окно">
@@ -96,6 +97,7 @@
       </div>
     </div>
 
+    <!-- обратный звонок -->
     <div class="modal" id="backCall">
       <div class="modal-content">
         <button id="closeBackCall" class="modal-close" aria-label="закрыть окно">
@@ -118,6 +120,223 @@
       </div>
     </div>
 
+    <!-- подписка -->
+    <div class="modal price" id="subscrPrice">
+      <div class="modal-content">
+        <button id="closeSubscPrice" class="modal-close" aria-label="закрыть окно">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.1667 25.8333L25.8334 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M25.8334 25.8333L14.1667 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <h2 class="modal-title title1">выбрать подписку</h2>
+        <div class="subscr-table">
+          <div class="subscr-table-row">
+            <h2 class="title2 subscr-table-title">Для поднятия настроения<span>
+                1 месяц</span></h2>
+            <p class="title3 subscr-table-desc">1 букет 1 раз в неделю<span>всего - 4 букета</span></p>
+            <p class="title1 subscr-table-price">7 000 ₽</p>
+            <button class="title4 small-btn subscr-table-btn" data-subscription="mood">Выбрать</button>
+          </div>
+          <div class="subscr-table-row">
+            <h2 class="title2 subscr-table-title">настойчивость
+              <span>2 недели</span>
+            </h2>
+            <p class="title3 subscr-table-desc">1 букет 1 раз в день<span>всего - 14 букетов</span></p>
+            <p class="title1 subscr-table-price">20 000 ₽</p>
+            <button class="title4 small-btn subscr-table-btn" data-subscription="insist">Выбрать</button>
+          </div>
+          <div class="subscr-table-row">
+            <h2 class="title2 subscr-table-title">Для поднятия настроения
+              <span>4 месяца</span>
+            </h2>
+            <p class="title3 subscr-table-desc">1 букет 1 раз в неделю<span>всего - 16 букетов</span></p>
+            <p class="title1 subscr-table-price">22 000 ₽</p>
+            <button class="title4 small-btn subscr-table-btn" data-subscription="mood4">Выбрать</button>
+          </div>
+          <div class="subscr-table-row">
+            <h2 class="title2 subscr-table-title">Для поднятия настроения
+              <span>6 месяца</span>
+            </h2>
+            <p class="title3 subscr-table-desc">1 букет 1 раз в неделю<span>всего - 24 букета</span></p>
+            <p class="title1 subscr-table-price">30 000 ₽</p>
+            <button class="title4 small-btn subscr-table-btn" data-subscription="mood6">Выбрать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- завяка с подпиской -->
+    <div class="modal " id="subscrApply">
+      <div class="modal-content">
+        <button id="closeSubscrApply" class="modal-close" aria-label="закрыть окно">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.1667 25.8333L25.8334 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M25.8334 25.8333L14.1667 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <h2 class="modal-title title1">заявка на оформление подписки</h2>
+        <p class="modal-desc title23">Пожалуйста, оставьте свои контакты, мы свяжемся с вами и расскажем подробности ;)
+        </p>
+        <form action="/" class="modal-form">
+          <input class="modal-input modal-name" type="text" placeholder="Ваше имя">
+          <label for="modalName" class="modal-line"></label>
+          <input class="modal-input modal-email" type="email" placeholder="Ваш email">
+          <label for="modalEmail" class="modal-line"></label>
+          <input class="modal-input modal-phone" type="tel" placeholder="Ваш телефон">
+          <label for="modalPhone" class="modal-line"></label>
+          <textarea class="modal-textarea" name="modal-wishes" cols="30" rows="10" placeholder="Ваши пожелания">Здравствуйте!
+Я хочу оформить подписку “НАСТОЙЧИВОСТЬ”.
+Пожалуйста, свяжитесь со мной.</textarea>
+          <button class="modal-btn huge-btn title1">отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- обучение -->
+    <div class="modal price" id="studyPrice">
+      <div class="modal-content">
+        <button id="closeStudyPrice" class="modal-close" aria-label="закрыть окно">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.1667 25.8333L25.8334 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M25.8334 25.8333L14.1667 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <h2 class="modal-title title1">стоимость обучения</h2>
+        <div class="subscr-table">
+          <div class="subscr-table-row">
+            <h2 class="title22 subscr-table-title">Обучение в прямом эфире
+              или&nbsp;в&nbsp;записи</span></h2>
+            <p class="title4 subscr-table-desc">Обучение будет снято в&nbsp;прямом эфире
+              и&nbsp;сохранено на&nbsp;странице в&nbsp;течение 1&nbsp;месяца</p>
+            <p class="title1 subscr-table-price">1 990 ₽</p>
+            <button class="title4 small-btn subscr-table-btn" data-subscription="record">Подать заявку</button>
+          </div>
+          <div class="subscr-table-row">
+            <h2 class="title22 subscr-table-title">Очное обучение в группе
+            </h2>
+            <p class="title4 subscr-table-desc">
+              Группа до&nbsp;5&nbsp;человек/<br>
+              Все материалы будут предоставлены/<br>
+              Обучение в&nbsp;магазине/<br>
+              Букет забираете с&nbsp;собой
+            </p>
+            <p class="title1 subscr-table-price">12 900 ₽</p>
+            <button class="title4 small-btn subscr-table-btn" data-subscription="offline-group">Подать заявку</button>
+          </div>
+          <div class="subscr-table-row">
+            <h2 class="title22 subscr-table-title">Индивидуальное обучение
+            </h2>
+            <p class="title4 subscr-table-desc">Все материалы будут предоставлены/<br>
+              Сборка 2&nbsp;свадебных букетов/<br>
+              Букет забираете с&nbsp;собой</p>
+            <p class="title1 subscr-table-price">22 000 ₽</p>
+            <button class="title4 small-btn subscr-table-btn" data-subscription="personal">Подать заявку</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- завяка с обучением -->
+    <div class="modal" id="studyApply">
+      <div class="modal-content">
+        <button id="closeStudyApply" class="modal-close" aria-label="закрыть окно">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.1667 25.8333L25.8334 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M25.8334 25.8333L14.1667 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <h2 class="modal-title title1">заявка на обучение</h2>
+        <p class="modal-desc title23">Пожалуйста, оставьте свои контакты, мы свяжемся с вами и расскажем подробности ;)
+        </p>
+        <form action="/" class="modal-form">
+          <input class="modal-input modal-name" type="text" placeholder="Ваше имя">
+          <label for="modalName" class="modal-line"></label>
+          <input class="modal-input modal-email" type="email" placeholder="Ваш email">
+          <label for="modalEmail" class="modal-line"></label>
+          <input class="modal-input modal-phone" type="tel" placeholder="Ваш телефон">
+          <label for="modalPhone" class="modal-line"></label>
+          <textarea class="modal-textarea" name="modal-wishes" cols="30" rows="10" placeholder="Ваши пожелания">Здравствуйте!
+Я хочу обучаться в прмом эфире.
+Пожалуйста, свяжитесь со мной.</textarea>
+          <button class="modal-btn huge-btn title1">отправить</button>
+        </form>
+      </div>
+    </div>
+
+
+    <!-- карточка товара -->
+    <div class="modal visible flower">
+      <div class="modal-content">
+        <button id="closeThanks" class="modal-close" aria-label="закрыть окно">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.1667 25.8333L25.8334 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M25.8334 25.8333L14.1667 14.1666" stroke="#191919" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <div class="flower-photo">
+          <img class="flower-photo-img" src="./src/assets/img/flowersCatalog/2big.jpg" alt="">
+
+          <div class="flower-photos">
+            <img src="./src/assets/img/flowersCatalog/2small1.jpg" alt="">
+            <img src="./src/assets/img/flowersCatalog/2small2.jpg" alt="">
+            <img src="./src/assets/img/flowersCatalog/2small3.jpg" alt="">
+          </div>
+        </div>
+        <div class="flower-info ">
+          <h2 class="flower2 flower-title title1">Букет “май”</h2>
+          <p class="flower-code title1 title1">SKU: 304</p>
+          <p class="flower-price title12 title12">2 200₽</p>
+
+          <ul class="flower-info-list">
+            <li class="flower-info-list-item title5">Возможен самовывоз</li>
+            <li class="flower-info-list-item title5">Для доставки действуют интервалы времени:
+              <ol class="flower-info-list">
+                <li class="flower-info-list-item title5">9:00 - 12:00*</li>
+                <li class="flower-info-list-item title5">12:00 - 15:00</li>
+                <li class="flower-info-list-item title5">15:00 - 18:00</li>
+                <li class="flower-info-list-item title5">18:00 - 21:00</li>
+              </ol>
+            </li>
+
+          </ul>
+          <p class="flower-info-desc title5">
+            *Утренний интервал самый востребованный, бронируйте, пожалуйста заранее.
+            Доставка в Новочебоксарск, Кугеси - 450 ₽.
+            Доставка в другие регионы обговаривается
+            с администратором.
+
+          </p>
+          <p class="flower-info-desc title5">Способы оплаты:</p>
+          <ul class="flower-info-list">
+            <li class="flower-info-list-item title5">Банковской картой</li>
+            <li class="flower-info-list-item title5">Наличными</li>
+            <li class="flower-info-list-item title5">PayPal</li>
+            <li class="flower-info-list-item title5">По счету для юр.лиц</li>
+          </ul>
+
+          <p class="flower-info-desc title5">К каждому букету:</p>
+          <ul>
+            <li class="flower-info-list-item title5">Фото собранного букета</li>
+            <li class="flower-info-list-item title5">Фирменная открытка с вашими пожеланиями</li>
+          </ul>
+
+
+        </div>
+
+      </div>
+    </div>
     <div class="modal" id="thanks">
       <div class="modal-content">
         <button id="closeThanks" class="modal-close" aria-label="закрыть окно">
@@ -134,117 +353,153 @@
       </div>
     </div>
 
-    <section class="delivery section">
+
+
+    <section class="catalog">
       <div class="container">
-        <h2 class="title1 delivery-title">условия доставки, оплаты и возврата средств</h2>
-        <p class='title3 delivery-desc'>срочная доставка <span>Мы бережем ваше время</span></p>
-        <div class="delivery-block">
-          <ul class="delivery-list">
-            <li class="delivery-list-item">
-              <h3 class="delivery-list-item-title title22">Готовые букеты в наличии
-              </h3>
-              <p class="delivery-list-item-desc title3">Каждый день мы подготавливаем витрину готовых букетов для
-                быстрого заказа.<br>
-                Актуальная информация содержится в инстаграм.</p>
-            </li>
-            <li class="delivery-list-item">
-              <h3 class="delivery-list-item-title title22">Выбор букета в течение 10 минут
-              </h3>
-              <p class="delivery-list-item-desc title3">Наш менеджер вышлет вам фотографии готовых букетов с ценами.<br>
-                Букет сразу отправляется на доставку.</p>
-            </li>
-            <li class="delivery-list-item">
-              <h3 class="delivery-list-item-title title22">Курьер доставит лично в руки
-              </h3>
-              <p class="delivery-list-item-desc title3">В нашей компании профессиональные курьеры с опытом работы более
-                года.<br>
-                Так же можем отправить сопутствующие подарки.</p>
-            </li>
-            <li class="delivery-list-item">
-              <h3 class="delivery-list-item-title title22">Поздравление
-              </h3>
-              <p class="delivery-list-item-desc title3">Мы можем подписать открытку с поздравительным текстом
-                <br> или курьер передаст ваше пожелание.
-              </p>
-            </li>
-          </ul>
-          <img src="./src/assets/img/images/delivery.jpg" alt="букет цветов">
-        </div>
-      </div>
-      <div class="delivery-info">
-        <p class="delivery-info-desc title22">Заказы на сайте принимаются до 21:00. Доставляем от 60 минут!<br>
-          Вы можете оплатить через менеджера, либо через курьера.</p>
-      </div>
-
-      <div class="container delivery-table-block">
-        <div class="delivery-switcher-block">
-          <h3 class="title3 delivery-down-title">Стоимость доставки</h3>
-          <div class="switcher-radios">
-            <label class="switch-label">
-              <input type="radio" class="switch-radio" name="cityDelivery" value="Moscow" checked>
-              <span>Москва</span>
-            </label>
-            <label class="switch-label">
-              <input type="radio" class="switch-radio" name="cityDelivery" value="Cheboksary">
-              <span>Чебоксары</span>
-            </label>
-          </div>
+        <div class="presents-titles">
+          <h2 class="title23 presents-title">Букеты до 5 000 ₽</h2>
+          <button class="title4 presents-title-btn" disabled>смотреть все</button>
         </div>
 
-
-        <table class="delivery-table">
-          <tr>
-            <th colspan="2" class="title2 delivery-table-title" scope="col">Обычная доставка</td>
-            <th class="delivery-table-line" rowspan="4"><svg width="58" height="203" viewBox="0 0 58 203" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <line x1="57.4812" y1="0.135787" x2="0.48121" y2="202.136" stroke="#E7B588" />
-              </svg></th>
-            <th colspan="3" class="title2 delivery-table-title" scope="col">Доставка в праздничные дни <span>(День мамы,
-                14
-                февраля, 8 марта)</span></th>
-          </tr>
-          <tr>
-            <td class="delivery-table-item title22" scope="row">При покупке до 2 500 ₽</td>
-            <td class="delivery-table-item-price title23">250 ₽</td>
-            <td class="delivery-table-item title22" scope="row">При покупке до 3 000 ₽</td>
-            <td class="delivery-table-item-price title23">300 ₽</td>
-            <td rowspan="3"></td>
-          </tr>
-          <tr>
-            <td class="delivery-table-item title22" scope="row">При покупке от 2 500 ₽</td>
-            <td class="delivery-table-item-price title23">бесплатно</td>
-            <td class="delivery-table-item title22" scope="row">При покупке от 3 000 ₽</td>
-            <td class="delivery-table-item-price title23">бесплатно</td>
-          </tr>
-          <tr>
-            <td class="delivery-table-item title22" scope="row">Доставка в Новочебоксарск/Кугеси/Чандрово/Новый
-              город/Яуши*</td>
-            <td class="delivery-table-item-price title23">350 ₽</td>
-
-            <td class="delivery-table-item title22" scope="row">Доставка в Новочебоксарск/Кугеси/Чандрово/Новый
-              город/Яуши*</td>
-            <td class="delivery-table-item-price title23">400 ₽</td>
-          </tr>
-
-        </table>
-        <div class="delivery-table">
-
-
-          <!-- <div class="delivery-table-line"><svg width="58" height="203" viewBox="0 0 58 203" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <line x1="57.4812" y1="0.135787" x2="0.48121" y2="202.136" stroke="#E7B588" />
-            </svg>
-          </div> -->
-
-
-
+        <ul class="presents-list">
+          <li class="presents-list-item">
+            <img class="presents-list-item-img" src="./src/assets/img/flowersCatalog/1.jpg" alt="">
+            <div class="presents-list-item-block">
+              <div class="presents-list-item-info">
+                <h4 class="title4 presents-list-item-name">
+                  Букет “Май”
+                </h4>
+                <p class="presents-list-item-price">6 400 ₽</p>
+              </div>
+              <button class="small-btn presents-list-item-btn" aria-label="в корзину">
+                <img src="./src/assets/img/icons/bag.svg" alt="корзина">
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="presents-titles">
+          <h2 class="title23 presents-title">Букеты на 5 000-10 000 ₽</h2>
+          <button class="title4 presents-title-btn" disabled>смотреть все</button>
         </div>
+        <ul class="presents-list">
+          <li class="presents-list-item">
+            <img class="presents-list-item-img" src="./src/assets/img/flowersCatalog/20.jpg" alt="">
+            <div class="presents-list-item-block">
+              <div class="presents-list-item-info">
+                <h4 class="title4 presents-list-item-name">
+                  Букет “Май”
+                </h4>
+                <p class="presents-list-item-price">6 400 ₽</p>
+              </div>
+              <button class="small-btn presents-list-item-btn" aria-label="в корзину">
+                <img src="./src/assets/img/icons/bag.svg" alt="корзина">
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="presents-titles">
+          <h2 class="title23 presents-title">Букеты на 10 000-30 000 ₽</h2>
+          <button class="title4 presents-title-btn" disabled>смотреть все</button>
+        </div>
+        <ul class="presents-list">
+          <li class="presents-list-item">
+            <img class="presents-list-item-img" src="./src/assets/img/flowersCatalog/30.jpg" alt="">
+            <div class="presents-list-item-block">
+              <div class="presents-list-item-info">
+                <h4 class="title4 presents-list-item-name">
+                  Букет “Май”
+                </h4>
+                <p class="presents-list-item-price">6 400 ₽</p>
+              </div>
+              <button class="small-btn presents-list-item-btn" aria-label="в корзину">
+                <img src="./src/assets/img/icons/bag.svg" alt="корзина">
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="presents-titles">
+          <h2 class="title23 presents-title">Букеты от 30 000 ₽</h2>
+          <button class="title4 presents-title-btn" disabled>смотреть все</button>
+        </div>
+        <ul class="presents-list">
+          <li class="presents-list-item">
+            <img class="presents-list-item-img" src="./src/assets/img/flowersCatalog/40.jpg" alt="">
+            <div class="presents-list-item-block">
+              <div class="presents-list-item-info">
+                <h4 class="title4 presents-list-item-name">
+                  Букет “Май”
+                </h4>
+                <p class="presents-list-item-price">6 400 ₽</p>
+              </div>
+              <button class="small-btn presents-list-item-btn" aria-label="в корзину">
+                <img src="./src/assets/img/icons/bag.svg" alt="корзина">
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="presents-titles">
+          <h2 class="title23 presents-title">Коробки</h2>
+          <button class="title4 presents-title-btn" disabled>смотреть все</button>
+        </div>
+        <ul class="presents-list">
+          <li class="presents-list-item">
+            <img class="presents-list-item-img" src="./src/assets/img/flowersCatalog/50.jpg" alt="">
+            <div class="presents-list-item-block">
+              <div class="presents-list-item-info">
+                <h4 class="title4 presents-list-item-name">
+                  Букет “Май”
+                </h4>
+                <p class="presents-list-item-price">6 400 ₽</p>
+              </div>
+              <button class="small-btn presents-list-item-btn" aria-label="в корзину">
+                <img src="./src/assets/img/icons/bag.svg" alt="корзина">
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="presents-titles">
+          <h2 class="title23 presents-title">монобукеты</h2>
+          <button class="title4 presents-title-btn" disabled>смотреть все</button>
+        </div>
+        <ul class="presents-list">
+          <li class="presents-list-item">
+            <img class="presents-list-item-img" src="./src/assets/img/flowersCatalog/70.jpg" alt="">
+            <div class="presents-list-item-block">
+              <div class="presents-list-item-info">
+                <h4 class="title4 presents-list-item-name">
+                  Букет “Май”
+                </h4>
+                <p class="presents-list-item-price">6 400 ₽</p>
+              </div>
+              <button class="small-btn presents-list-item-btn" aria-label="в корзину">
+                <img src="./src/assets/img/icons/bag.svg" alt="корзина">
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="presents-titles">
+          <h2 class="title23 presents-title">Свадебные</h2>
+          <button class="title4 presents-title-btn" disabled>смотреть все</button>
+        </div>
+        <ul class="presents-list">
+          <li class="presents-list-item">
+            <img class="presents-list-item-img" src="./src/assets/img/flowersCatalog/60.jpg" alt="">
+            <div class="presents-list-item-block">
+              <div class="presents-list-item-info">
+                <h4 class="title4 presents-list-item-name">
+                  Букет “Май”
+                </h4>
+                <p class="presents-list-item-price">6 400 ₽</p>
+              </div>
+              <button class="small-btn presents-list-item-btn" aria-label="в корзину">
+                <img src="./src/assets/img/icons/bag.svg" alt="корзина">
+              </button>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
-
-
-
-
 
 
     <footer class="footer">
@@ -344,6 +599,8 @@
     </div>
   </div>
   </div>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=8485d337-06ee-4612-88a9-66784ba0e2f6&lang=ru_RU"></script>
+
   <script type="module" src="/main.js"></script>
 </body>
 
